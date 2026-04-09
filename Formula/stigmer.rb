@@ -1,23 +1,23 @@
 class Stigmer < Formula
   desc "AI-powered workflow automation with local LLMs"
   homepage "https://github.com/stigmer/stigmer"
-  version "0.0.74"
+  version "0.0.75"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/stigmer/stigmer/releases/download/v0.0.74/stigmer-v0.0.74-darwin-arm64.tar.gz"
-      sha256 "bba5eb3aac105ff5a3ef3bcafcc0e420c6103dff5d6729e46f2d3adf11442cd0"
+      url "https://github.com/stigmer/stigmer/releases/download/v0.0.75/stigmer-v0.0.75-darwin-arm64.tar.gz"
+      sha256 "4cd9c4b681cff12604c123f7197af88f2c485e0efa653b8b2bac94d766ca32f7"
     else
-      url "https://github.com/stigmer/stigmer/releases/download/v0.0.74/stigmer-v0.0.74-darwin-amd64.tar.gz"
-      sha256 "21a00150ca6f98fcfe66ae610a6e5e9d440c9535bab8d389b34c7ba7be7673d4"
+      url "https://github.com/stigmer/stigmer/releases/download/v0.0.75/stigmer-v0.0.75-darwin-amd64.tar.gz"
+      sha256 "d098580b539b357d69968789c7d9e3a97bde5a0bd2df37df1e2ed22aabc14ded"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/stigmer/stigmer/releases/download/v0.0.74/stigmer-v0.0.74-linux-amd64.tar.gz"
-      sha256 "ef7640501dd14b216167a86e86179bcd9001a97252ca93decaf7fada5d2f366b"
+      url "https://github.com/stigmer/stigmer/releases/download/v0.0.75/stigmer-v0.0.75-linux-amd64.tar.gz"
+      sha256 "7ea5e62d5d6c9a0c6f572347279bc55ef813ed2ac98f1647eb2906eefc636abd"
     end
   end
 
