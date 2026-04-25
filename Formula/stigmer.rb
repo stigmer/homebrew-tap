@@ -7,17 +7,17 @@ class Stigmer < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/stigmer/stigmer/releases/download/v0.0.93/stigmer-v0.0.93-darwin-arm64.tar.gz"
-      sha256 "3183477c10f4f12b4b50ea06456519d9f30e7b9d2481d281e23ca53070cd59f0"
+      sha256 "0c1004d254fe855decbdd6f9002a24b3c068aee18e7b65b426946888ef1cf731"
     else
       url "https://github.com/stigmer/stigmer/releases/download/v0.0.93/stigmer-v0.0.93-darwin-amd64.tar.gz"
-      sha256 "b3cb2d1360ae6079b18edb326f7683577bc3038e1bdbb4bb4069cfa5335d6d37"
+      sha256 "f40da1928beb8357594326af370e8e73a345c0139dc65ea11e39db7a602bc42a"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/stigmer/stigmer/releases/download/v0.0.93/stigmer-v0.0.93-linux-amd64.tar.gz"
-      sha256 "8a5815d82231bc534fbb444ff88be2b25a4adc95c35f91cf6e4dc0ad4eda69a8"
+      sha256 "56f6b194247ea3b8fbf714117f53dcebb2297bf09876bcfbed96b2a49a354368"
     end
   end
 
