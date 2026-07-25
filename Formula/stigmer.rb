@@ -3,8 +3,8 @@ require "language/node"
 class Stigmer < Formula
   desc "AI-powered workflow automation — agents, skills, MCP servers, workflows"
   homepage "https://github.com/stigmer/stigmer"
-  url "https://registry.npmjs.org/@stigmer/cli/-/cli-3.2.3.tgz"
-  sha256 "80e78af52a87e6554554523db89502f8d0ce0122e00352c4b6d0af6d615abb52"
+  url "https://registry.npmjs.org/@stigmer/cli/-/cli-3.4.0.tgz"
+  sha256 "f45abf889c88fbf530b626ca0a31bdfb08bc448d935ba328cffb3b372c2035a5"
   license "Apache-2.0"
 
   depends_on "node"
