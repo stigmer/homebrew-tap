@@ -1,8 +1,8 @@
 # Written by github.com/stigmer/nightcrawler's release workflow from
 # packaging/nightcrawler.rb.in on every release. Edit the template there, not this file.
 cask "nightcrawler" do
-  version "0.1.0"
-  sha256 "ca4855d35e2fc29e73a34365ae25b941950b4dec0510fe0052ce51ac84191b1c"
+  version "0.1.1"
+  sha256 "f656a7fbefa34661c8eb39457be52a88c01e58360c98a08563d3726bbce8f4c8"
 
   url "https://github.com/stigmer/nightcrawler/releases/download/v#{version}/Nightcrawler-#{version}.zip"
   name "Nightcrawler"
