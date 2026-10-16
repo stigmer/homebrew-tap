@@ -1,8 +1,8 @@
 # Written by github.com/stigmer/capsjump's release workflow from
 # packaging/capsjump.rb.in on every release. Edit the template there, not this file.
 cask "capsjump" do
-  version "0.3.1"
-  sha256 "b6fc230c97699dba3fe1e8ad1b61a9b5d7e0ad4fc8bf432313c0028843c160f0"
+  version "0.3.2"
+  sha256 "c4293f87b5d57d862c75c0ce4f048e95c28c288f0cc8102d53f152b3079956ed"
 
   url "https://github.com/stigmer/capsjump/releases/download/v#{version}/CapsJump-#{version}.zip"
   name "CapsJump"
