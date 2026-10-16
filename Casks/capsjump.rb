@@ -4,8 +4,7 @@ cask "capsjump" do
   version "0.2.0"
   sha256 "37546fc38a80dc75c598127c30edd80e750e084d9ad6eea0ba63ae3515ddb53b"
 
-  url "https://github.com/stigmer/capsjump/releases/download/v#{version}/CapsJump-#{version}.zip",
-      verified: "github.com/stigmer/capsjump/"
+  url "https://github.com/stigmer/capsjump/releases/download/v#{version}/CapsJump-#{version}.zip"
   name "CapsJump"
   desc "Caps Lock shortcuts for apps, Chrome accounts, windows and links"
   homepage "https://stigmer.github.io/capsjump/"
