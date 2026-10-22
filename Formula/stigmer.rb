@@ -1,8 +1,8 @@
 require "language/node"
 
 class Stigmer < Formula
-  desc "AI-powered workflow automation — agents, skills, MCP servers, workflows"
-  homepage "https://github.com/stigmer/stigmer"
+  desc "Open-source backend for the agents in your product"
+  homepage "https://stigmer.ai"
   url "https://registry.npmjs.org/@stigmer/cli/-/cli-3.41.0.tgz"
   sha256 "7bd8c669245049ba632464b53a3f2f869eef1d79fb4bdb732ab47d0a8d13c252"
   license "Apache-2.0"
@@ -16,14 +16,14 @@ class Stigmer < Formula
 
   def caveats
     <<~CAVEATS
-      The Stigmer backend server is downloaded automatically on first use,
-      so no extra binaries are bundled. Provide a model API key first:
+      Agents run on your Anthropic key. Put it in your shell, then start
+      Stigmer:
 
-        Option 1 (recommended):         export ANTHROPIC_API_KEY=sk-ant-...
-        Option 2:                        export OPENAI_API_KEY=sk-...
-        Option 3 (local, lower quality): brew install ollama && ollama serve
+        export ANTHROPIC_API_KEY=<your Anthropic API key>
+        stigmer up
 
-      Then start the local stack with:  stigmer up
+      To save the key instead of exporting it each time, run `stigmer setup`
+      once. The Stigmer server is downloaded on first use.
     CAVEATS
   end
 
