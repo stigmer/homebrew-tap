@@ -3,8 +3,8 @@ require "language/node"
 class Stigmer < Formula
   desc "Open-source backend for the agents in your product"
   homepage "https://stigmer.ai"
-  url "https://registry.npmjs.org/@stigmer/cli/-/cli-0.3.2.tgz"
-  sha256 "3ef5e016223802368ac6a25d1384409d63047980c95bf85f69f3d0fdae770fc3"
+  url "https://registry.npmjs.org/@stigmer/cli/-/cli-0.4.0.tgz"
+  sha256 "de95074c70499ea87617f7b2d94b7a117f522bc74e21726bd96b199be766b9da"
   license "Apache-2.0"
 
   depends_on "node"
